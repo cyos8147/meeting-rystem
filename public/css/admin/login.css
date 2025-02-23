@@ -1,0 +1,64 @@
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    border: 1px solid #ccc;
+    max-width: 500px;
+    width: 100%;
+    margin: 10px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.form-control {
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #e9f7fd;
+    color: #333;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.input-group {
+    position: relative;
+    border-radius: 5px;
+}
+
+.input-group button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.input-group button i {
+    font-size: 1.2rem;
+    color: #007bff;
+    border-radius: 5px;
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+.bg-pink {
+    background-color: #e83e8c !important;
+}

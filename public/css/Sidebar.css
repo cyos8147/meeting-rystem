@@ -1,0 +1,21 @@
+.sidebar {
+    background-color: rgba(67, 70, 157, 1); 
+    color: #fff;
+    padding-top: 1rem;
+}
+
+.sidebar .nav-link {
+    color: #fff;
+    font-size: 16px;
+    padding: 0.5rem 1rem;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #8d828e; 
+    border-radius: 5px;
+}
+.nav-link.active {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}

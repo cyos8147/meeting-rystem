@@ -1,0 +1,95 @@
+/* /public/css/AdvisorsIndex.css */
+th a {
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    width: 100%; /* Make sure the width is consistent */
+}
+
+th a i {
+    margin-left: 5px; /* Space between text and the icon */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for scaling and color change */
+}
+
+th a:hover i {
+    transform: scale(1.2); /* Slightly enlarge the arrow when hovering */
+}
+
+th a i.fa-sort-up {
+    color: #17a2b8; /* Light blue for ascending order */
+}
+
+th a i.fa-sort-down {
+    color: #dc3545; /* Red for descending order */
+}
+
+table th {
+    font-weight: bold;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    position: relative;
+}
+
+table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+table tbody td {
+    vertical-align: middle;
+}
+
+.table-responsive {
+    margin-top: 20px;
+}
+
+.btn-sm {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.delete-form {
+    display: inline-block;
+}
+
+
+table td, table th {
+    vertical-align: middle;
+}
+@media (min-width: 768px) {
+    .pagination-responsive {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .pagination-responsive {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .pagination-responsive {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .pagination-responsive {
+        font-size: 0.875rem;
+    }
+}
+.input-group {
+    position: relative;
+}
+.input-group .btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-left: none;
+}

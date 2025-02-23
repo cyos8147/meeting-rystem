@@ -1,0 +1,49 @@
+/* Change the color of the carousel control buttons */
+.carousel-control-prev-icon,
+.carousel-control-prev-icon{
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+}
+.carousel-control-next-icon,
+.carousel-control-next-icon{
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+}
+/* Optionally, change the background color of the carousel control buttons */
+.carousel-control-prev,
+
+/* Highlight buttons on hover */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+   
+}
+.table {
+    table-layout: fixed;
+    width: 100%;
+}
+/* General adjustments */
+.table td {
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+/* Adjust modal for smaller screens */
+@media (max-width: 768px) {
+    .modal-dialog {
+        max-width: 90%;
+    }
+}
+
+/* Adjust table for smaller screens */
+@media (max-width: 576px) {
+    table {
+        font-size: 12px;
+    }
+
+    .carousel-inner img {
+        max-height: 150px;
+    }
+
+    .badge {
+        font-size: 10px;
+        padding: 5px;
+    }
+}

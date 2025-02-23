@@ -1,0 +1,80 @@
+/* /public/css/ListStudent.css */
+/* Sorting arrows inside the table headers */
+th a {
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px; /* Add consistent padding for alignment */
+    width: 100%; /* Make sure the width is consistent */
+}
+
+/* Ensure the arrow icons don't move */
+th a i {
+    margin-left: 5px; /* Space between text and the icon */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for scaling and color change */
+}
+
+/* Hover effect on the sorting arrows */
+th a:hover i {
+    transform: scale(1.2); /* Slightly enlarge the arrow when hovering */
+}
+
+/* Add some color effects for sorting */
+th a i {
+    color: #f8f9fa;
+}
+
+/* Sort direction icons */
+th a i.fa-sort-up {
+    color: #17a2b8; /* Light blue for ascending order */
+}
+
+th a i.fa-sort-down {
+    color: #dc3545; /* Red for descending order */
+}
+
+/* Styling the table headers */
+table th {
+    font-weight: bold;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    position: relative; /* Keep the content aligned and prevent layout shift */
+}
+
+/* Hover effect on the table row */
+table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Add focus effect on the links */
+th a:focus {
+    outline: none;
+    box-shadow: none;
+}
+@media (min-width: 768px) {
+    .pagination-responsive {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .pagination-responsive {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .pagination-responsive {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .pagination-responsive {
+        font-size: 0.875rem;
+    }
+}
